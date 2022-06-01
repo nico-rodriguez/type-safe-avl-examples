@@ -1,0 +1,12 @@
+cabal-version:  3.0
+name:           type-safe-avl-examples
+version:        1.0.0.0
+synopsis:       Examples for the type-safe-avl library
+category:       Data
+license:        GPL-3.0-only
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  build-depends:      base ^>=4.15.0.0, type-safe-avl ^>=1.0.0.1
+  ghc-options:        -dsuppress-module-prefixes
