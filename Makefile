@@ -6,8 +6,8 @@ INTERFACES = *.hi
 1-types: 1-types.hs
 	$(GHC) $(GHCFLAGS) 1-types.hs
 
-2-lookup-not-found: $(DEPS) 3-lookup-not-found.hs
-	$(GHC) $(GHCFLAGS) 3-lookup-not-found.hs
+2-lookup-not-found: $(DEPS) 2-lookup-not-found.hs
+	$(GHC) $(GHCFLAGS) 2-lookup-not-found.hs
 
 3-non-bst: $(DEPS) 3-non-bst.hs
 	$(GHC) $(GHCFLAGS) 3-non-bst.hs
