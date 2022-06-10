@@ -3,7 +3,7 @@
 module NonBST where
 
 import Data.Proxy (Proxy (Proxy))
-import Data.Tree.AVL.FullExtern (mkAVL)
+import Data.Tree.BST.FullExtern (mkBST)
 import Data.Tree.ITree (ITree (EmptyITree, ForkITree))
 import Data.Tree.Node (mkNode)
 
@@ -18,4 +18,4 @@ tree =
     (mkNode p0 'a')
     (ForkITree EmptyITree (mkNode p2 ['a', 'b']) EmptyITree)
 
-nonBST = mkAVL tree
+nonBST = mkBST tree
