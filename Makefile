@@ -1,5 +1,5 @@
 GHC = ghc
-# GHCFLAGS = 
+GHCFLAGS = -dsuppress-module-prefixes
 OBJS = *.o
 INTERFACES = *.hi
 
