@@ -18,4 +18,4 @@ tree =
     (mkNode p0 'a')
     (ForkITree EmptyITree (mkNode p1 True) (ForkITree EmptyITree (mkNode p2 ['a', 'b']) EmptyITree))
 
-nonBST = mkAVL tree
+nonAVL = mkAVL tree
